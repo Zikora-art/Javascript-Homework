@@ -34,11 +34,11 @@ const calculate = (num1, num2, operator) => {
 };
 
 // Step 3: Example usage - logging to the console
-console.log(calculate(10, 5, '+')); // Output: 15
+console.log(calculate(60, 5, '+')); // Output: 65
 console.log(calculate(10, 5, '-')); // Output: 5
-console.log(calculate(10, 5, '*')); // Output: 50
-console.log(calculate(10, 5, '/')); // Output: 2
-console.log(calculate(10, 5, '%')); // Output: 0
+console.log(calculate(90, 5, '*')); // Output: 450
+console.log(calculate(10, 2, '/')); // Output: 5
+console.log(calculate(10, 3, '%')); // Output: 1
 
 
 let arr1 = [1, 82, 17];
